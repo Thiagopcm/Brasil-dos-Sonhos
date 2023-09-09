@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+:root {
+    --cor-de-fundo: #EBECEE;
+    --branco: #FFF;
+    --principal: "Georgia";
+    --azul: #045477;
+    --preto:#424242;
+}
+
+.nav-link{
+    color: var(--azul);
+}
+.cart{
+    padding: 20px;
+}
+
+.container1 {
+    background-image: url(img/Brazil_Mirror_Beach_near_Trancoso-2017_Bing_Desktop_Wallpaper_1366x768\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+}
+
+.titulo{
+    font-family: var(--principal);
+    font-style: normal;
+    font-size: 120px;
+    text-shadow: 0px 4px 4px #245852;
+    color: var(--branco);
+    font-weight: 700;
+    line-height: 157%;
+    padding: 158px;
+}
+
+.titulo2{
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    color: var(--azul);
+
+}
+
+.titulo3{
+    color: var(--azul);
+    font-family: Georgia;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+
+}
+
+.texto{
+    color:var(--preto);
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.botao{
+    border-radius: 8px;
+    display: inline-flex;
+    padding: 20px 10px;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    text-decoration: none;
+    background-color: var(--azul);
+    color: var(--branco);
+    margin-bottom: 20px;
+}
+
+.cards{
+    background: rgba(217, 217, 217, 0.30);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 250px;
+    padding-left: 125px;
+
+}
+.card{
+    width: 461px;
+    height: 546px;
+    flex-shrink: 0;    
+}
+.card-title{
+    color: #045477;
+    text-align: center;
+    font-family: Georgia;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+.clientes{
+    background: #FB0;
+    background-image: url(img/Crianças\ na\ Piscina.png);
+    background-repeat: no-repeat;
+    background-size:contain; 
+    background-position: right center;
+    width: 100%;
+    height: 600px;  
+}
+
+.titulo4{
+    color: var(--branco);
+    font-family: Georgia;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 157%;
+    padding-left:150px;
+    padding-top: 100px; 
+}
+
+.texto1{
+    color: var(--branco);
+    font-family: Lato;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 157%;
+    padding-left: 150px;
+    padding-bottom:50px;   
+}
+
+.botao1{
+    border-radius: 8px;
+    display: inline-flex;
+    padding: 20px 10px;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    text-decoration: none;
+    background-color: var(--azul);
+    color: var(--branco);
+    margin-bottom: 20px;
+    margin-left: 350px;
+}
+
+.missao{
+    background-image: url(img/Cascata.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    width: 600px;
+    height: 600px;
+    padding-left: 500px;
+}
+.titulo5{
+    color: #245852;
+    font-family: 'Lato'sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 157%;
+    margin-left: 210px;
+}
+
+.titulo6{
+    color: #045477;
+    font-family: Georgia;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    width: 639px;
+    padding-left: 10px;
+    margin-left: 200px;
+}
+
+.texto2{
+    color: #424242;
+    font-family: 'Lato'sans-serif ;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    width: 534px;
+    height: 151px;
+    flex-shrink: 0;
+    text-align: justify;
+    padding-left: 10px;
+    margin-left: 200px;
+}
+
+.botao2{
+    border-radius: 8px;
+    display: inline-flex;
+    padding: 10px 100px;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    text-decoration: none;
+    background-color: var(--azul);
+    color: var(--branco);
+    margin-top: 50px;
+    margin-left: 350px;
+}
+.rodape {
+    background: var(--azul);
+    padding: 1em
+}
+
+.lista__rodape__link{
+    text-decoration: none;
+    color: var(--branco);
+    font-family: 'Lato' sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    
+}
